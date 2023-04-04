@@ -1,0 +1,27 @@
+{
+    "name": "Data Getter Plugin",
+    "version": "1.0.0",
+    "description": "A plugin to get data from the spreadsheet",
+    "author": "Your Name",
+    "dependencies": {
+      "onlyoffice": "^6.4.2"
+    },
+    "plugins": [
+      {
+        "name": "Data Getter",
+        "description": "A plugin to get data from the spreadsheet",
+        "pluginPath": "plugin.js",
+        "interface": {
+          "name": "DataGetterInterface",
+          "methods": [
+            {
+              "name": "getData",
+              "params": [],
+              "returns": "string"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
